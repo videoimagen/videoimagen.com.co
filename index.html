@@ -91,8 +91,8 @@
                 <div class="image-background">
                 </div>
                 <div class="image-title">
-                    <p>Soluciones en alquiler, mantenimiento y venta </p>
-                    <p> de audiovisulaes</p>
+                    <p> Alquiler, mantenimiento y venta de </p>
+                    <p>  equipos audiovisuales</p>
                     <a href="event.html" class="button-basic-1" data-aos="fade-up">Ver Servicios</a>
                 </div>
                 <div class="video-background">
@@ -412,13 +412,12 @@
                                 ¿Tienes alguna duda o sugerencia? Escríbenos y te responderemos lo más pronto posible.
                             </p>
                         </div>
-                        <div class="contact-form-style col-span-6 sm:col-span-12 res:col-span-12">
-                            <input type="text" name="your-name" size="40" placeholder="Name">
-                            <input type="text" name="your-name" size="40" placeholder="Email">
-                            <textarea name="your-message" cols="40" rows="10" placeholder="Text"></textarea>
-                            <input type="submit" value="Send" class="button-basic-1">
-
-                        </div>
+                        <form  action="https://formspree.io/f/meqywoop" method="post" class="contact-form-style col-span-6 sm:col-span-12 res:col-span-12">
+                            <input  required type="text" maxlength="150"   name="name" size="40" placeholder="Nombre">
+                            <input required  type="text" maxlength="15" name="phone" size="40" placeholder="Teléfono">
+                            <textarea required maxlength="500"  name="message" cols="40" rows="10" placeholder="Tu mensaje"></textarea>
+                            <input type="submit" value="Enviar" class="button-basic-1">
+                        </form>
                     </div>
                 </div>
             </div>
@@ -493,7 +492,7 @@
                 NAME: 'LOGISTICA PARA ASAMBLEAS',
                 DESCRIPTION: 'Sistemas de votación para asamblea, creación del acta, asambleas mixtas, sonido, pantallas de proyección, computadores, grabación de audio y video, registro de quorum.',
                 IMAGE: 'https://i.postimg.cc/WbGC0Vfz/imagen-2024-05-17-101402105.png',
-                CATEGORY: [' ALQUILER ', ' MANTENIMIENTO ', ' VENTA ']
+                CATEGORY: [' ALQUILER ']
             },
         ]
         $(document).ready(function () {
